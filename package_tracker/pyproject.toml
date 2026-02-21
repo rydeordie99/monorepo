@@ -1,0 +1,14 @@
+[project]
+name = "package-tracker"
+version = "0.1.0"
+description = "package tracker, requires internal site project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "httpx>=0.28.1",
+    "myutils",
+]
+
+[tool.uv.sources]
+myutils = { workspace = true }

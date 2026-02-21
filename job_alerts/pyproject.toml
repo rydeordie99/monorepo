@@ -1,0 +1,12 @@
+[project]
+name = "job-alerts"
+version = "0.1.0"
+description = "Job alerts for various job boards."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "myutils",
+]
+
+[tool.uv.sources]
+myutils = { workspace = true }

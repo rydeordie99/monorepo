@@ -1,0 +1,13 @@
+[project]
+name = "fantasy-hockey"
+version = "0.1.0"
+description = "Yahoo fantasy hockey automatic line up"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "myutils",
+]
+
+[tool.uv.sources]
+myutils = { workspace = true }

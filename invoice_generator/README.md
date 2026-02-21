@@ -1,0 +1,1 @@
+Simple PDF invoice generator. Just for personal use.

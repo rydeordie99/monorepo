@@ -1,0 +1,13 @@
+[project]
+name = "version-check"
+version = "0.1.0"
+description = "Script to check for latest version of software"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "myutils",
+]
+
+[tool.uv.sources]
+myutils = { workspace = true }
